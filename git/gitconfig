@@ -1,0 +1,27 @@
+[core]
+    excludesFile = ~/.gitignore
+
+[user]
+    name = Petr Prchal
+
+[alias]
+    br = branch
+    brl = branch -l
+    ci = commit
+    cia = commit -a
+    ciaa = commit -a --amend
+    co = checkout
+    cp = cherry-pick
+    d = diff
+    f = fetch
+    l = log --pretty=oneline --abbrev-commit
+    ps = push -v
+    pr = pull --rebase
+    s = status
+
+[push]
+    default = simple
+
+[pager]
+    log = less -X -F
+    diff = less -X -F
