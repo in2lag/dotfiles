@@ -1,5 +1,5 @@
 [core]
-    excludesFile = ~/.gitignore
+    excludesfile = ~/.gitignore
 
 [user]
     name = Petr Prchal
@@ -18,10 +18,9 @@
     ps = push -v
     pr = pull --rebase
     s = status
-
+    ll = log --pretty=oneline --abbrev-commit --decorate
 [push]
-    default = simple
-
+    default = current
 [pager]
     log = less -X -F
     diff = less -X -F
