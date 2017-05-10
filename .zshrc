@@ -18,9 +18,7 @@ antigen bundle history
 antigen bundle wd
 
 # Node
-#antigen bundle npm
 antigen bundle node
-#antigen bundle akoenig/npm-run.plugin.zsh
 
 #PHP
 antigen bundle composer
@@ -35,4 +33,5 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 antigen apply
 
- # added for npm-completion https://github.com/Jephuff/npm-bash-completion
+# added for npm-completion https://github.com/Jephuff/npm-bash-completion
+ 
