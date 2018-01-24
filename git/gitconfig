@@ -2,7 +2,7 @@
     excludesfile = ~/.gitignore
 
 [user]
-    name = Petr Prchal
+	name = Petr Prchal
 
 [alias]
     br = branch
@@ -19,6 +19,7 @@
     pr = pull --rebase
     s = status
     ll = log --pretty=oneline --abbrev-commit --decorate
+    fl =  push --force-with-lease
 [push]
     default = current
 [pager]
